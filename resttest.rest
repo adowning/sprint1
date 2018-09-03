@@ -1,0 +1,26 @@
+  curl -X POST \
+  -H "X-Parse-Application-Id: z" \
+  # -H "X-Parse-REST-API-Key: ${REST_API_KEY}" \
+  -H "Content-Type: application/json" \
+  -d '{"score":1337,"playerName":"Sean Plott","cheatMode":false}' \
+  http://74.192.104.240:1337/parse/classes/GameScore
+
+
+# curl -X POST \
+#   -H "X-Parse-Application-Id: z" \
+#   # -H "X-Parse-REST-API-Key: ${REST_API_KEY}" \
+#   -H "X-Parse-Revocable-Session: 1" \
+#   -H "Content-Type: application/json" \
+#   -d '{"username":"cooldude6","password":"p_n7!-e8","phone":"415-392-0202"}' \
+#   http://ashdevtools.com/parse/users
+
+
+# curl -X GET \
+#   -H "X-Parse-Application-Id: z" \
+#   -H "X-Parse-REST-API-Key: ${REST_API_KEY}" \
+#   http://ashdevtools.com/parse/classes/GameScore/stVg85vhvG
+
+
+# curl -X GET \
+#   -H "X-Parse-Application-Id: z" \
+#  http://ashdevtools.com/parse/classes/GameScore
