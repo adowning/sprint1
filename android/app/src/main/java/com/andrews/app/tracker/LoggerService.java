@@ -108,7 +108,8 @@ public class LoggerService extends Service {
             sendBroadcast(BROADCAST_LOCATION_STARTED);
 
 //          syncIntent = new Intent(getApplicationContext(), WebSyncService.class);
-            syncIntent = new Intent(getApplicationContext(), ParseSyncService.class);
+//            syncIntent = new Intent(getApplicationContext(), ParseSyncService.class);
+            syncIntent = new Intent(getApplicationContext(), CloudantSyncService.class);
 
             thread = new LoggerThread();
             thread.start();
@@ -183,7 +184,7 @@ public class LoggerService extends Service {
      */
     private void updatePreferences() {
 //        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        minTimeMillis = 10000;
+        minTimeMillis = 30000;
         minDistance = 0;
         maxAccuracy = 100;
         useGps = true;;

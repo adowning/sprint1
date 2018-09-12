@@ -1,9 +1,15 @@
-  curl -X POST \
-  -H "X-Parse-Application-Id: z" \
-  # -H "X-Parse-REST-API-Key: ${REST_API_KEY}" \
-  -H "Content-Type: application/json" \
-  -d '{"score":1337,"playerName":"Sean Plott","cheatMode":false}' \
-  http://74.192.104.240:1337/parse/classes/GameScore
+  # curl -X POST \
+  # -H "X-Parse-Application-Id: z" \
+  # # -H "X-Parse-REST-API-Key: ${REST_API_KEY}" \
+  # -H "Content-Type: application/json" \
+  # -d '{"score":1337,"playerName":"Sean Plott","cheatMode":false}' \
+  # http://74.192.104.240:1337/parse/classes/GameScore
+
+curl -X POST \
+-H "X-Parse-Application-Id: andrewsadmin" \
+-H "Content-Type: application/json" \
+-d '{"score":1337,"playerName":"Sean Plott","cheatMode":false}' \
+http://localhost:1337/parse/classes/GameScore
 
 
 # curl -X POST \

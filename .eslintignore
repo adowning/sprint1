@@ -1,1 +1,2 @@
 /ElectronClient/**
+/src/plugins/database.js

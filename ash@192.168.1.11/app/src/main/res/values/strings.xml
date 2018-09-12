@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">andrewsadmin</string>
+    <string name="title_activity_main">andrewsadmin</string>
+    <string name="package_name">com.andrews.app</string>
+    <string name="fileprovider_authority">com.andrews.app.fileprovider</string>
+    <string name="custom_url_scheme">com.andrews.app</string>
+    <!--<string name="back4app_server_url">https://parseapi.back4app.com/</string>-->
+    <!--<string name="back4app_app_id">1gdHYU45DMPBp5r5fDx8Cx3EWgmoCz4qQ7zqwUGH</string>-->
+    <!--<string name="back4app_client_key">zcInbgcy6d7SZgjJxOFoba14PN3EF9j4gYmUltJA</string>-->
+    <string name="back4app_server_url">http://74.192.104.240:1337/parse/</string>
+    <string name="back4app_app_id">z</string>
+    <string name="back4app_client_key">zcInbgcy6d7SZgjJxOFoba14PN3EF9j4gYmUltJA</string>
+</resources>
